@@ -99,9 +99,9 @@ nav ul h2 a svg {
 
 .about-me {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 30px;
+    padding: 100px;
 }
 
 .about-me h1 {
