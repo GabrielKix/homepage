@@ -179,18 +179,33 @@ nav ul h2 a svg {
         display: inline;
     }
 
+    .about-me {
+        padding: 150px 15px 15px 15px;
+    }
+
     .about-me .container-img img {
         display: none;
     }
 }
 
 @media (max-width: 650px) {
+
+    header {
+        height: calc(100vh - 80px);
+    }
+
     nav ul h2 {
         font-size: 17px;
     }
 }
 
 @media (max-width: 545px) {
+
+    header {
+        height: calc(100vh - 180px);
+    }
+
+
     nav ul h2 {
         font-size: 13px;
     }
