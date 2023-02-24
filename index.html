@@ -1,47 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gabriel Rosendo</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
 
-<body>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          src="https://vemcomaengenhariaquimica.files.wordpress.com/2018/03/minerva08.png"
+          alt="logo"
+          height="87"
+          width="71"
+          class="minerva"
+        />
 
-  <header>
-
-    <div class="container">
-
-      <h2>Bem vindo,</h2>
-      <h1>Me chamo Gabriel Rosendo</h1>
-      <p>Sou Engenheiro Civil, Engenheiro de Segurança e atualmente estou cursando Ciência da Computação com ênfase em Full Stack Dev</p>
-      <button class="entreEmContato">Entre em contato</button>
+        <h2>Bem vindo,</h2>
+        <h1>Me chamo Gabriel Rosendo</h1>
+        <p style="color: var(--lightgrey)">
+          Sou Engenheiro Civil, Engenheiro de Segurança e atualmente estou
+          cursando Ciência da Computação com ênfase em Full Stack Dev
+        </p>
+        <button class="entreEmContato">Entre em contato</button>
+      </div>
+    </header>
+    <nav>
+      <a href="">
+        <img
+          src="https://vemcomaengenhariaquimica.files.wordpress.com/2018/03/minerva08.png"
+          alt="logo"
+          height="87"
+          width="71"
+          class="minerva"
+        />
+      </a>
+      <ul>
+        <h2>
+          <a href=""><i data-feather="user"></i>Sobre mim</a>
+          <a href=""><i data-feather="briefcase"></i>Serviços</a>
+          <a href=""><i data-feather="image"></i>Portfólio</a>
+          <a href=""><i data-feather="list"></i>Curriculum</a>
+          <a href=""><i data-feather="send"></i>Contato</a>
+        </h2>
+      </ul>
+    </nav>
+    <section class="about-me">
+      <div class="conteiner">
+        <h1>Sobre mim</h1>
+        <p>
+          Carioca de 25 anos, trabalho com projetos de incêndio utilizando a
+          metodologia BIM.<br />
+          Sou formado em Engenharia de Segurança e Engenharia Civil, atualmente
+          cursando Ciência da Computação. <br /><br />Tenho experiencia em BIM
+          com os programas Revit, Revit MEP, ArchCAD, Eberick, AltoQI Builder,
+          TQS e CypeCAD. <br />Em linguagens de computação tenho esperiência em
+          Python, Java, HTML, CSS, Javascript, R e SQL.
+        </p>
+      </div>
+      <div class="container-img">
+        <img src="gabriel-jpg.jpg" alt="Gabriel Rosendo" width="250px" />
+      </div>
+    </section>
+    <div class="container-imgx">
+      <img
+        src="gabriel-jpg.jpg"
+        alt="Gabriel Rosendo"
+        width="250px"
+        class="mobile-img"
+      />
     </div>
-    
 
-
-  </header>
-<nav>
-  <a href="">
-  <img src="https://vemcomaengenhariaquimica.files.wordpress.com/2018/03/minerva08.png" alt="logo" height="87" width="71" class="minerva">
-  </a>
-  <ul>
-<h2>
-    <a href="">Sobre mim</a>
-    <a href="">Serviços</a>
-    <a href="">Portfólio</a>
-    <a href="">Curriculum</a>
-    <a href="">Contato</a>
-</h2>
-  </ul>
-</nav>
-
-
-
-<section style="color: rgb(228, 17, 17)">Drakaris</section>
-   
-
-</body>
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
